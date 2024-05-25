@@ -57,7 +57,17 @@ button#btnDelete {
 }
 button#btnAdd {
 	background: red;
-}
+	display: block;
+	margin: 10px auto 0px auto;
+	border: none;
+	border-radius: 3px;
+	padding: 5px 15px;
+	
+	color: white;
+	font-weight: bold;
+	
+}:hover{	box-shadow: 0px 0px 10px white;
+	cursor: pointer;}
 
 #result {
 	display: none;
