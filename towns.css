@@ -55,6 +55,9 @@ article>button:hover {
 button#btnDelete {
 	background: red;
 }
+button#btnAdd {
+	background: red;
+}
 
 #result {
 	display: none;
