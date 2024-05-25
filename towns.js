@@ -48,3 +48,8 @@ function shuffleTowns() {
 	}
 }
 
+$(document).ready(function() {
+	$('#btnShuffle').click(shuffleTowns);
+});
+
+
