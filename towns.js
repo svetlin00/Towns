@@ -25,3 +25,7 @@ function addTown() {
 	$('#result').text(townName + " added.");
 }
 
+$(document).ready(function() {
+	
+	$('#btnAdd').click(addTown);
+});
